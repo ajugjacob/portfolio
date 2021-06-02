@@ -43,3 +43,9 @@ function openTab(evt, tabName) {
   }
 
   document.getElementById("defaultOpen").click();
+
+  var text = document.getElementById("text-overlay")
+
+  function displaytext() {
+      text.style.display=' '; 
+  }

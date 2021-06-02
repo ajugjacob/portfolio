@@ -167,3 +167,35 @@ section {
     color: grey;
     text-decoration: underline !important;
 }
+
+#work-1 {
+    background-image: url(../img/ARC.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-overlay {
+    top: 0;
+    left: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-overlay:hover {
+    background-color: black;
+    opacity: 0.85;
+}
+
+#text-overlay {
+    display: none;
+    color: white;
+    font-size: 3em;
+    padding: 20px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
